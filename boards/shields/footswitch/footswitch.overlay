@@ -7,7 +7,7 @@
         compatible = "zmk,kscan-gpio-direct";
         input-gpios
             =
-	      <&gpio0 17 GPIO_ACTIVE_LOW | GPIO_PULL_UP>
+	      <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
     };
 };
