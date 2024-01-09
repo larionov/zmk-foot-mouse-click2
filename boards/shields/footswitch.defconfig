@@ -1,0 +1,6 @@
+if SHIELD_FOOTSWITCH
+
+config ZMK_KEYBOARD_NAME
+    default "footswitch"
+
+endif
